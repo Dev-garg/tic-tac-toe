@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <div class="row">
+    <div id="nav">
+      Tic Tac Toe
+    </div>
+  </div>
+  <div class="row justify-center">
+    <div class="w-70 row p-20 justify-center gap-100" id="main">
+      <div class="w-40" id="game">
+        <div class="row">
+          <div class="w-33 border box bt-0 bl-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bt-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bt-0 br-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bl-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box br-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bl-0 bb-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bb-0">
+            <span class="boxText"></span>
+          </div>
+          <div class="w-33 border box bb-0 br-0">
+            <span class="boxText"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-40" id="text">
+        <h1>Welcome</h1>
+        <pre id="turn">Turn   >>>   <span id="player">X</span></pre>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
