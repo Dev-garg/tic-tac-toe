@@ -155,7 +155,9 @@
   body{overflow:none;}
   #nav {
     font-size: 8vw;
-    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
 #main{
   width: 100%;
