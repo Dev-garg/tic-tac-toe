@@ -152,13 +152,14 @@
 } */
 
 @media screen and (max-width:992px) {
+  body{overflow:none;}
   #nav {
     font-size: 8vw;
     height:10vh;
   }
 #main{
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
   #game {
     width: 100%;
