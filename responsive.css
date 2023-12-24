@@ -3,6 +3,13 @@
     overflow: none;
   }
 
+  .box:hover {
+    background-color: none;
+    cursor: pointer;
+  }
+  .box:active{
+    background-color:rgb(251, 195, 251);
+  }
   #nav {
     font-size: 8vw;
     display: flex;
